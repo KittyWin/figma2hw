@@ -1,0 +1,350 @@
+:root {
+  --color: #0e2d22;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f1ed;
+}
+.h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #0e2d22;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+}
+.koala {
+  display: flex;
+  flex-direction: row;
+}
+.koala {
+  margin: 12px;
+  display: flex;
+  gap: 15px;
+}
+.burger {
+  margin-top: 6px;
+}
+.searcg {
+  margin-left: 350px;
+  background-color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  border-radius: 20px;
+}
+.navi {
+  color: #0e2d22;
+  margin-top: 4px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 320px;
+}
+.account {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  background: #0e2d22;
+  color: white;
+}
+.veterinar {
+  display: flex;
+  flex-direction: row;
+}
+.pet {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.zoomed {
+  margin-top: 220px;
+  margin-left: 30px;
+  margin-right: 80px;
+}
+.korm {
+  font-size: 16px;
+}
+.shop {
+  color: white;
+}
+.vet__btm {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 30px;
+  background-color: #0e2d22;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.medicoments {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-right: 80px;
+  height: 700px;
+}
+.number {
+  width: 30px;
+  height: 30px;
+  background-color: #0e2d22;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: white;
+  margin-right: 8px;
+}
+.number__white {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-right: 8px;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+
+  align-items: center;
+}
+.medicoments__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 150px;
+}
+.all {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.kinds {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 900px;
+  padding-top: 300px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+button {
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+}
+.m {
+  margin-bottom: 20px;
+}
+.btm {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 5px;
+}
+.qwe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.v {
+  margin-top: 20px;
+  color: black;
+}
+.color {
+  color: #636e72;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1600px;
+  left: 420px;
+  z-index: 2;
+}
+.get {
+  color: #636e72;
+}
+.product__text {
+  color: #636e72;
+  margin-top: 20px;
+}
+.vet__btm1 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 30px;
+  background-color: #0e6e1089;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.dogs {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 200px;
+  background-color: #0e2d22;
+}
+.pet2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 595px;
+}
+.pet_text2 {
+  font-size: 17px;
+  color: white;
+}
+.pet2__text {
+  font-size: 17px;
+  margin-top: 10px;
+  color: white;
+}
+.qaz {
+  display: flex;
+  flex-direction: row;
+}
+.pet_line {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.434);
+}
+.pet_line1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.434);
+}
+.dogcat {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 150px;
+  background-color: #0e2d22;
+  height: 750px;
+}
+.pet3 {
+  margin-top: 53.5px;
+}
+.pet4 {
+  margin-left: 595px;
+}
+.happypets {
+  position: absolute;
+  z-index: 2;
+  top: 3100px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hp {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.605);
+}
+.vet__btm2 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 30px;
+  background-color: #9e5b54;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.shop {
+  color: #ebe8de;
+}
+.usa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #636e72;
+  padding-top: 200px;
+  height: 1400px;
+}
+.usa_btm {
+  width: 100px;
+  height: 30px;
+  background-color: #cbddbf;
+  border-radius: 30px;
+
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.usa_text {
+  color: #ffffff70;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.state {
+  margin-bottom: 45px;
+}
+.finish {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  height: 300px;
+}
+.usa_text1 {
+  color: #0e2d22;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.con1 {
+  margin-bottom: 50px;
+}
+.ins{
+  display: flex;
+  flex-direction: row;
+  gap: 495px;
+  padding-left: 20px;
+  margin-right: 20px;
+  align-items: flex-end;
+  margin-top: 70px;
+}
